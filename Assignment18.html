@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 18</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+
+        header, footer {
+            background: #202878;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        table {
+            width: 90%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid gray;
+            padding: 8px;
+        }
+
+        th {
+            background: #e5e5f5;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ABC College Admission 2026</h1>
+</header>
+
+<main>
+    <h2><b>Courses and Fees</b></h2>
+
+    <table>
+        <caption>Available Courses</caption>
+        <tr>
+            <th>Course</th>
+            <th>Seats</th>
+            <th>Fees</th>
+        </tr>
+        <tr>
+            <td>B.Tech CSE</td>
+            <td>120</td>
+            <td>₹90,000</td>
+        </tr>
+        <tr>
+            <td>BCA</td>
+            <td>60</td>
+            <td>₹45,000</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>Application Form</legend>
+
+            Name:<br>
+            <input type="text" required>
+            <br><br>
+
+            Email:<br>
+            <input type="email" required>
+            <br><br>
+
+            Course:<br>
+            <select>
+                <option>B.Tech CSE</option>
+                <option>BCA</option>
+            </select>
+            <br><br>
+
+            Statement:<br>
+            <textarea rows="4" cols="45"></textarea>
+            <br><br>
+
+            <input type="submit" value="Apply">
+        </fieldset>
+    </form>
+</main>
+
+<footer>
+    © 2026 ABC College
+</footer>
+
+</body>
+</html>
